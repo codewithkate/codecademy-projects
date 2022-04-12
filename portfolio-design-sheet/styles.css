@@ -1,0 +1,225 @@
+/* Imported Fonts */
+
+/* Universal Styles */
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%; /*16px*/
+  line-height: 1.5;
+  background: white;
+  color: #0B100D;
+}
+
+body {
+  margin: 0 10%;
+  padding: 0%;
+}
+
+
+/* Main Content */
+div {
+  display: block;
+}
+
+.container {
+  border: 2px solid #0B100D;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  }
+  
+  .font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}  
+
+ul {
+  display: block;
+  list-style-type: square;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  }
+  
+li {
+  display: list-item;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+  
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+  
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Colors */
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  margin: 20px auto;
+  text-align: center;
+  min-height: 100px;
+}
+
+.timberwolf {
+  background-color: #DAD7CD;
+  color: #0B100D;
+}
+
+.artichoke {
+  background-color: #8D9A78;
+  color: #0B100D;
+}
+
+.fern {
+  background-color: #588157;
+  color: #0B100D;
+}
+
+.hunter {
+  background-color: #3A5A40;
+  color: #f4f0e2;
+}
+
+.kombu {
+  background-color: #31493D;
+  color: #f4f0e2;
+}
+
+.rich {
+  background-color: #0B100D;
+  color: #f4f0e2;
+}
+
+
+/* Fonts */
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.nunito {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.monospace {
+  font-family: 'Source Code', monospace;
+}
+
+
+/* Text Styles */
+.text-body_regular {
+  font-size: 0.8123rem;
+}
+
+.text-body_small {
+  font-size: 0.75rem;
+}
+
+/* Text Heading*/
+.text-heading_large {
+  font-size: 1.75rem; 
+  line-height: 1.25;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+.text-heading_medium {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-heading_small {
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-title {
+  font-size: .75rem;
+  line-height: 1.25;
+}
+
+.text-title_caps {
+  font-size: .75rem;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .0625rem;
+}
+
+.text-title_bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.text-longform h1, 
+.text-longform h2, 
+.text-longform h3, 
+.text-longform img, 
+.text-longform ol, 
+.text-longform p, 
+.text-longform ul {
+   margin-bottom: 0.75rem;
+}
+
+/* Text Alignment */
+.text-align_left {
+    text-align: left;
+}
+
+.text-align_right {
+    text-align: right;
+}
+
+.text-align_center {
+    text-align: center;
+}
+
+/* Text Color */
+.text-color_default {
+  color: #0B100D;
+}
+
+.text-color_weak {
+  color: #0b100dd7;
+}
+
+.text-color_inverse {
+    background-color: #31493D;
+    color: #f4f0e2;
+    padding: 0.5rem;
+}

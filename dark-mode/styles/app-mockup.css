@@ -1,0 +1,65 @@
+/* Universal Styling */
+body {
+    width: 50%;
+    margin: 25% auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Constants*/
+img {
+    width: 10px;
+}
+
+h1,
+.menu,
+.search,
+.dots {
+    display: inline;
+}
+
+.menu,
+.search,
+.dots {
+    max-width: 10px;
+    filter: invert();
+}
+
+h1,
+h2,
+h3,
+h4, {
+    letter-spacing: 10;
+}
+
+footer {
+    padding-top: 3px;
+}
+
+.square {
+    display: inline-block;
+    width: 125px;
+    margin: 2px 2px;
+    border-radius: 3%;
+}
+
+a {
+    color: #212121;
+    font-size: x-small;
+}
+
+.figure {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.comp-figure {
+    font-size: x-small;
+}
+
+.btn {
+    width: 55px;
+    height: 25px;
+    margin: 0px 5px 0px auto;
+    border-radius: 3px;
+}
