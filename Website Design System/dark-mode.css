@@ -1,0 +1,34 @@
+/* Dark Mode Settings*/
+.dark-mode-background {
+    /*(0dp elevation surface overlay)*/
+    background-color: rgb(15, 15, 15);
+}
+
+.surface {
+    /*(with 1dp elevation surface overlay)*/
+    background-color: #212121;
+    color: rgb(168, 168, 168);
+}
+
+.primary {
+    background-color: rgb(94, 87, 127);
+}
+
+.secondary {
+    background-color: rgb(33, 181, 107);
+}
+
+.on-background {
+   color: rgb(201, 199, 209);
+}
+
+.on-surface {
+    color: rgb(203, 202, 206);
+}
+
+.on-primary {
+    color: rgb(18, 17, 23);
+}
+.on-secondary {
+    color: rgb(4, 22, 13);
+}
