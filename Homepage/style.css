@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+}
+
+/*HEADER*/
+/* Navigation bar */
+#nav-bar {
+    background-color: rgba(76, 92, 104, 0.98);
+    width: 100%;
+    max-height: 150px;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    z-index: 5;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-list {
+    align-items: center;
+    display: inline-flex;
+    height: 3.5em;
+}
+
+li.nav-item {
+    list-style-type: none;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+a {
+    color: hsla(240, 1%, 86%, 1);
+    text-decoration: none;
+}
+
+a:active {
+    color: #72cae0;
+}
+
+
+/* Hero */
+.hero {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    height: 500px;
+    background: #72cae0 url(./images/chicago.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: rgb(43, 45, 47);
+    font-family: 'Libre Bodoni', sans-serif;
+    margin-left: 30px;
+    padding-top: 60px;
+    opacity: 1;
+}
+
+/*MAIN*/
+main {
+    position: absolute;
+    top: 555px;
+    height: 1200px;
+}
+/* Mission */
+#mission {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4c5c68ff;
+    height: 190px;
+}
+
+#mission h2 {
+    color: hsla(240, 6%, 93%, 0.95);
+    text-align: center;
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+#mission p {
+    color: hsla(240, 1%, 86%, 0.85);
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Practices */
+
+#practices {
+    margin: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+.area {
+    padding: 0 1rem;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area h3 {
+    color: rgb(43, 45, 47);
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 1.25rem;
+}
+
+.area i {
+    color: rgb(242, 242, 242);
+    background-color: #4c5c68ff;
+    border-radius: 50px;
+    padding: 20px;
+}
+/* Team */
+#team {
+    background-color: #4c5c68ff;
+    width: 100%;
+    height: 232px;
+    margin: 4em 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+#team h2 {
+    color: #dcdcddff;
+    font-size: 1.75em;
+    align-self: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile h1 {
+    color: #dcdcddff;
+    padding-top: 0.5rem;
+}
+.profile p {
+    color: rgb(43, 45, 47);
+    font-style: italic;
+    font-size: smaller;
+}
+
+.profile img {
+    border-radius: 100px;
+}
+/*FOOTER*/
+footer {
+    background-color: inherit;
+    position: absolute;
+    top: 1189px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Contact */
+footer h4 {
+    margin: 1rem 0.75rem;;
+    color: rgb(43, 45, 47);
+}
+#contact {
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-info button {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    gap: 1rem;
+    color: #4c5c68ff;
+}
+
+.attribution p {
+    color: #4c5c68ff;
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-left: 0.75rem;
+}
+
+.map img {
+    width: 300px;
+    border-radius: 20px;
+}
+/* Attribution */
